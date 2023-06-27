@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="YearInProgressWPF" GeneratedClassName="LifeInProgressSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ForegroundColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 192, 255</Value>
+    </Setting>
+    <Setting Name="BackgroundColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Maroon</Value>
+    </Setting>
+    <Setting Name="TextColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 192, 255</Value>
+    </Setting>
+    <Setting Name="AnticipatedLifeSpan" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+    <Setting Name="BirthDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">1978-03-28</Value>
+    </Setting>
+    <Setting Name="Tag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Have you accomplished anythign yet?</Value>
+    </Setting>
+    <Setting Name="RefreshInterval" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">24.00:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

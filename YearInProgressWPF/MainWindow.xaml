@@ -1,0 +1,25 @@
+﻿<Window x:Class="YearInProgressWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:YearInProgressWPF.ViewModels"
+        xmlns:convert="clr-namespace:YearInProgressWPF.Converters"
+        xmlns:local="clr-namespace:YearInProgressWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.DataContext>
+            <vm:MainViewModel/>
+        </Grid.DataContext>
+
+        <StackPanel Orientation="Horizontal">
+            <Image   Source="{Binding DayInProgressImage}" />
+            <Image   Source="{Binding YearInProgressImage}" />
+            <Image   Source="{Binding LifeInProgressImage}" />
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>
